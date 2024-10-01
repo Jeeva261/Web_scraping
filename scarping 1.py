@@ -111,6 +111,6 @@ plt.show()
 
 new_selection=4.0
 new_selection_df=model.predict([[new_selection]])
-print(new_selection_df)
+print(new_selection_df[0])
 
 
